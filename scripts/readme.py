@@ -395,34 +395,22 @@ class Readme:
         """
 
         self.total = total
-
         self.solved = solved
-
         self.others = others
-
         self.locked = locked
-
         self.time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-
         self.msg = '# Keep thinking, keep alive\n' \
-
                    'Until {}, I have solved **{}** / **{}** problems ' \
-
                    'while **{}** are still locked.' \
-
                    '\n\nCompletion statistic: ' \
-
                    '\n1. JavaScript: {javascript} ' \
-
                    '\n2. Python: {python}' \
-
                    '\n3. C++: {c++}' \
-
                    '\n4. Java: {java}' \
-
                    '\n\nNote: :lock: means you need to buy a book from LeetCode\n'.format(
-
                     self.time, self.solved, self.total, self.locked, **self.others)
+
+
 
 
 
